@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+<!--    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />-->
+
+
+
+    <application
+        android:allowBackup="true"
+        android:allowClearUserData="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/masterbikelogo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/masterbikelogo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MasterBike"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".Activity.PackageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.InsuranceClaimActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.BookSlotActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.ServicesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.ModelsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.BrandActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.OTPActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.SignupActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.LoginActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>

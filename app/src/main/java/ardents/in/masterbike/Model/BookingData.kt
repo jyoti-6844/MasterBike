@@ -1,0 +1,31 @@
+package ardents.`in`.masterbike.Model
+
+data class BookingData(
+    val Booking_AddedBy: Int,
+    val Booking_AddedOn: String,
+    val Booking_Address: String,
+    val Booking_Brand: Int,
+    val Booking_Date: String,
+    val Booking_Description: String,
+    val Booking_Email: String,
+    val Booking_EngineerPersonId: Int,
+    val Booking_Id: Int,
+    val Booking_Landmark: String,
+    val Booking_Lat: String,
+    val Booking_LoginId: Int,
+    val Booking_Long: String,
+    val Booking_Mobile: String,
+    val Booking_Model: Int,
+    val Booking_Name: String,
+    val Booking_PIN: String,
+    val Booking_PackageId: Int,
+    val Booking_Ref_No: Any,
+    val Booking_Status: Int,
+    val Booking_TimeSlot: Int,
+    val Booking_VehicleNo: String,
+    val Brand_Name: String,
+    val Login_Id: Int,
+    val Model_Name: String,
+    val PrefredTimeSlot_SlotName: String,
+    val Ref_No: String
+)
